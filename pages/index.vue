@@ -59,113 +59,6 @@
     </div>
 </div>
 
-
-<section class="w3l-services">
-    <div class="blog py-5" id="services">
-        <div class="container py-lg-5">
-            <h5 class="title-small text-center">Services</h5>
-            <h3 class="title-big text-center mb-sm-5 mb-4">What I do for you</h3>
-            <div class="row">
-                
-                    
-                    <div class="col-md-4 col-sm-12 col-xs-12" v-for="service in data.services.services" v-bind:key="service">
-                        <div class="item">
-                            <div class="card">
-                                <div class="box-wrap">
-                                    <div class="icon">
-                                        <span class="fa fa-pencil-square-o"></span>
-                                    </div>
-                                    <h4 class="number">{{service.no}}</h4>
-                                    <h4><a >{{service.title}}</a></h4>
-                                    <p>{{service.description}}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-            </div>
-            <div class="mt-5 text-more">
-                <p class="mt-4 pt-3 sample text-center">
-                    
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="w3l-stats py-lg-5 py-4" id="stats">
-    <div class="gallery-inner container py-md-5 py-4">
-        <div class="row stats-con">
-            <div class="col-sm-3 col-6 stats_info counter_grid">
-                <span class="fa fa-laptop"></span>
-                <p >{{data.main.workabout.completedproject}}</p>
-                <h4>Completed projects</h4>
-            </div>
-            <div class="col-sm-3 col-6 stats_info counter_grid1">
-                <span class="fa fa-hourglass-end"></span>
-                <p >{{data.main.workabout.inprogressproject}}</p>
-                <h4>In processes</h4>
-            </div>
-            <div class="col-sm-3 col-6 stats_info counter_grid mt-sm-0 mt-5">
-                <span class="fa fa-gift"></span>
-                <p >{{data.main.workabout.awardrecived}}</p>
-                <h4>Awards Received</h4>
-            </div>
-            <div class="col-sm-3 col-6 stats_info counter_grid2 mt-sm-0 mt-5">
-                <span class="fa fa-smile-o"></span>
-                <p >{{data.main.workabout.happyclinet}}</p>
-                <h4>Happy Clients</h4>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="w3l-clients" id="clients">
-   
-    <div class="cusrtomer-layout py-5">
-        <div class="container py-lg-5 py-md-4">
-            <div class="heading text-center mx-auto">
-                <h6 class="title-small text-center">Testimonials</h6>
-                <h3 class="title-big mb-md-5 mb-4">What my clients think about Me </h3>
-            </div>
-           
-            <div class="testimonial-width">
-                <div class="row">
-                    
-                    <div class="col-md-6 col-sm-12 col-xs-12" v-for="testimonial in data.testimonials.testimonials" v-bind:key="testimonial">
-                         <div class="item">
-                          <div class="testimonial-content">
-                            <div class="testimonial">
-                                <blockquote>
-                                    <q>{{testimonial.text}}</q>
-                                </blockquote>
-                                <div class="testi-des">
-                                    <div class="peopl align-self">
-                                        <h3>{{testimonial.clientname}}</h3>
-                                        <p class="indentity">{{testimonial.clientaddress}}</p>
-                                    </div>
-                                </div>
-                            </div>
-                         </div>
-                      </div>
-                    </div>
-                 
-            </div>
-                
-
-            </div>
-        </div>
-       
-       
-    </div>
-    
-    
-</section>
-
-
 <section class="w3l-index5" id="about">
     <div class="new-block py-5">
         <div class="container py-lg-5">
@@ -175,9 +68,6 @@
                     <h3 class="title-big">
                         {{data.main.quotes2.title}}
                     </h3>
-                    <p class="mt-3">
-                        {{data.main.quotes2.description}}
-                    </p>
                 </div>
                 
                 
