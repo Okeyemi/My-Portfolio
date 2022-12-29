@@ -57,43 +57,7 @@
         </div>
     </section>
     
-    
-    <section class="w3l-services py-5 w3l-resume ">
-        <div class="blog py-5" id="services">
-            <div class="container py-lg-5">
-                <h5 class="title-small text-center">Services</h5>
-                <h3 class="title-big text-center mb-sm-5 mb-4">What I do for you</h3>
-                <div class="row">
-                    
-                        
-                        <div class="col-md-4 col-sm-12 col-xs-12" v-for="service in data.services.services" v-bind:key="service">
-                            <div class="item">
-                                <div class="card">
-                                    <div class="box-wrap">
-                                        <div class="icon">
-                                            <span class="fa fa-pencil-square-o"></span>
-                                        </div>
-                                        <h4 class="number">{{service.no}}</h4>
-                                        <h4><a >{{service.title}}</a></h4>
-                                        <p>{{service.description}}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-    
-                </div>
-                <div class="mt-5 text-more">
-                    <p class="mt-4 pt-3 sample text-center">
-                        
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    
-    
+
     
     <section class="w3l-content-6 py-5">
         <div class="content-6-mian py-lg-5 py-md-4">
@@ -106,7 +70,7 @@
                         </p>
                     </div>
                     <div class="content-gd col-lg-6 offset-lg-1">
-                        <div class="progress-info" v-for="skill in data.resume.skills" v-bind:key="skill">
+                        <div class="progress-info" v-for="skill in data.resume.skills" v-bind:key="skill.id">
                             <h6 class="progress-tittle"><b>{{skill.name}} :</b> <font style="float:right">{{skill.level}}</font> </h6> 
                             
                         </div>
@@ -141,7 +105,7 @@
                 <h3 class="title-big text-center mb-sm-5 mb-4">My Educations</h3>
                 <div class="row">
                     
-                    <div class="col-lg-6 item" v-for="education in data.resume.education" v-bind:key="education">
+                    <div class="col-lg-6 item" v-for="education in data.resume.education" v-bind:key="education.id">
                         <div class="card">
                             <div class="box-wrap">
                                 <div class="icon">
@@ -171,7 +135,7 @@
                 <h3 class="title-big text-center mb-sm-5 mb-4">My Work Experience</h3>
                 <div class="row">
                     
-                    <div class="col-lg-6 item" v-for="work in data.resume.work" v-bind:key="work">
+                    <div class="col-lg-6 item" v-for="work in data.resume.work" v-bind:key="work.id">
                         <div class="card">
                             <div class="box-wrap">
                                 <div class="icon">

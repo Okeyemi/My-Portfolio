@@ -1,7 +1,5 @@
 <template>
 <div>
-
-
 <section class="w3l-about-breadcrumb text-center">
     <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
         <div class="container py-2">
@@ -13,8 +11,6 @@
         </div>
     </div>
 </section>
-
-
 <section class="w3l-services ">
     <div class="blog py-5" id="services">
         <div class="container py-lg-5">
