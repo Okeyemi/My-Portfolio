@@ -58,7 +58,7 @@
 </section>
 
 
-<section class="w3l-services py-5 w3l-resume ">
+<!-- <section class="w3l-services py-5 w3l-resume ">
     <div class="blog py-5" id="services">
         <div class="container py-lg-5">
             <h5 class="title-small text-center">Services</h5>
@@ -90,7 +90,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 
@@ -194,7 +194,7 @@
     </div>
 </section>
 
-<section class="w3l-services">
+<!-- <section class="w3l-services">
     <div class="w3l-achievements py-5" id="services">
         <div class="container py-lg-5">
             <h5 class="title-small text-center">My achievements</h5>
@@ -218,7 +218,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 

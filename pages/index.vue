@@ -60,7 +60,7 @@
 </div>
 
 
-<section class="w3l-services">
+<!-- <section class="w3l-services">
     <div class="blog py-5" id="services">
         <div class="container py-lg-5">
             <h5 class="title-small text-center">Services</h5>
@@ -92,10 +92,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
-<section class="w3l-stats py-lg-5 py-4" id="stats">
+<!-- <section class="w3l-stats py-lg-5 py-4" id="stats">
     <div class="gallery-inner container py-md-5 py-4">
         <div class="row stats-con">
             <div class="col-sm-3 col-6 stats_info counter_grid">
@@ -121,9 +121,9 @@
         </div>
     </div>
 </section>
+ -->
 
-
-<section class="w3l-clients" id="clients">
+<!-- <section class="w3l-clients" id="clients">
    
     <div class="cusrtomer-layout py-5">
         <div class="container py-lg-5 py-md-4">
@@ -163,10 +163,10 @@
     </div>
     
     
-</section>
+</section> -->
 
 
-<section class="w3l-index5" id="about">
+<!-- <section class="w3l-index5" id="about">
     <div class="new-block py-5">
         <div class="container py-lg-5">
             <div class="middle-section text-center">
@@ -178,13 +178,13 @@
                     <p class="mt-3">
                         {{data.main.quotes2.description}}
                     </p>
-                </div>
+                </div> -->
                 
-                
-            </div>
-        </div>
+<!--                 
+            </div> -->
+        <!-- </div>
     </div>
-</section>
+</section> -->
 
 
  <section class="w3l-grid-quote text-center py-5">
