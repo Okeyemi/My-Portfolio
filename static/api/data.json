@@ -13,12 +13,13 @@
         "contactmessage": "Get in touch with me to to build any software for your business.!",
         "email": "okeyemicreative@gmail.com",
         "phone": "+2347032759538",
-        "mapaddress": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.6698920746726!2d91.8166201143615!3d22.328320947520915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8b3c659a4fb%3A0xcf4c00425d483eb6!2s12%20Quarter%20Ln%2C%20Chittagong!5e0!3m2!1sen!2sbd!4v1631249930628!5m2!1sen!2sbd",
+        "mapaddress": "",
         "address": {
             "street": "Isokun Estate, Ojoo",
             "city": "Ibadan",
             "state": "Oyo",
-            "zip": "4202"
+            "zip": "200284"
+            
         },
         "quotes1": {
             "sectiontitle": "My resume",
@@ -35,18 +36,15 @@
             {
                 "name": "facebook",
                 "url": "https://www.facebook.com/tunde.joseph.56",
-                "url": "https://www.facebook.com/tunde.joseph.56",
                 "className": "fa fa-facebook"
             },
             {
                 "name": "linkedin",
                 "url": "https://www.linkedin.com/in/okeyemi-tunde",
-                "url": "https://www.linkedin.com/in/okeyemi-tunde",
                 "className": "fa fa-linkedin"
             },
             {
                 "name": "instagram",
-                "url": "https://www.instagram.com/okeyemitunde/",
                 "url": "https://www.instagram.com/okeyemitunde/",
                 "className": "fa fa-instagram"
             }
@@ -66,16 +64,16 @@
             "company": "Segsalerty",
             "title": "Frontend Developer",
             "years": "2022 - Present",
-            "company": "Segsalerty",
-            "title": "Frontend Developer",
-            "years": "2022 - Present",
+           
+           
+            
             "description": "Developing some userfriendly and best software."
         }],
         "skillssectiontitle":"Motivated by the Desire to achieve Success",
         "skillssectiondescription":"My skills",
         "skills": [{
                 "name": "HTML",
-                "name": "HTML",
+                
                 "level": "90%"
             },
             {
