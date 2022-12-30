@@ -13,7 +13,6 @@
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
               <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-              
           </button>
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -22,7 +21,7 @@
                      <nuxt-link to="/" class="nav-link" >Home <span class="sr-only">(current)</span></nuxt-link>
                   </li>
                   <li class="nav-item @@about__active">
-                      <nuxt-link to="/myself" class="nav-link" >About</nuxt-link>
+                      <nuxt-link to="/myself" class="nav-link">About</nuxt-link>
                   </li>
                   <li class="nav-item @@projects__active">
                       <nuxt-link to="/projects" class="nav-link" >Project</nuxt-link>
@@ -77,7 +76,7 @@
   
   <button onclick="topFunction()" id="movetop" title="Go to top">
     <span class="fa fa-angle-up"></span>
-  </button>
+  </button> 
 
 </section>
 

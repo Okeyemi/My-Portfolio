@@ -94,71 +94,72 @@
 
 
 
-
-<section class="w3l-content-6 py-5">
-    <div class="content-6-mian py-lg-5 py-md-4">
-        <div class="container">
-            <div class="content-info-in row">
-                <div class="content-gd col-lg-5">
-                    <h3 class="title-big mb-4">{{data.resume.skillssectiontitle}}</h3>
-                    <p>
-                        {{data.resume.skillssectiondescription}}
-                    </p>
-                </div>
-                <div class="content-gd col-lg-6 offset-lg-1">
-                    <div class="progress-info" v-for="skill in data.resume.skills" v-bind:key="skill">
-                        <h6 class="progress-tittle"><b>{{skill.name}} :</b> <font style="float:right">{{skill.level}}</font> </h6> 
+    
+    <section class="w3l-content-6 py-5">
+        <div class="content-6-mian py-lg-5 py-md-4">
+            <div class="container">
+                <div class="content-info-in row">
+                    <div class="content-gd col-lg-5">
+                        <h3 class="title-big mb-4">{{data.resume.skillssectiontitle}}</h3>
+                        <p>
+                            {{data.resume.skillssectiondescription}}
+                        </p>
+                    </div>
+                    <div class="content-gd col-lg-6 offset-lg-1">
+                        <div class="progress-info" v-for="skill in data.resume.skills" v-bind:key="skill.id">
+                            <h6 class="progress-tittle"><b>{{skill.name}} :</b> <font style="float:right">{{skill.level}}</font> </h6> 
+                            
+                        </div>
                         
                     </div>
-                    
                 </div>
             </div>
         </div>
+    </section>
+    
+    
+    <div class="abouthy-img-grids">
+        <div class="img-one">
+            <img src="/resources/assets/images/g5.jpg" alt=" " class="img-fluid">
+        </div>
+        <div class="img-one content-mid">
+            <center>
+            <h3 class="title-big"> Call me right now </h3><br>
+            <a  href="" class="btn btn-style btn-primary">{{data.main.phone}}</a>
+             
+            </center>
+        </div>
+        <div class="img-one">
+            <img src="/resources/assets/images/g3.jpg" alt=" " class="img-fluid">
+        </div>
     </div>
-</section>
-
-
-<div class="abouthy-img-grids">
-    <div class="img-one">
-        <img src="/resources/assets/images/g5.jpg" alt=" " class="img-fluid">
-    </div>
-    <div class="img-one content-mid">
-        <center>
-        <h3 class="title-big"> Call me right now </h3><br>
-        <a  href="" class="btn btn-style btn-primary">{{data.main.phone}}</a>
-         
-        </center>
-    </div>
-    <div class="img-one">
-        <img src="/resources/assets/images/g3.jpg" alt=" " class="img-fluid">
-    </div>
-</div>
-
-<section class="w3l-services">
-    <div class="w3l-achievements py-5" id="services">
-        <div class="container py-lg-5">
-            <h5 class="title-small text-center">Education</h5>
-            <h3 class="title-big text-center mb-sm-5 mb-4">My Educations</h3>
-            <div class="row">
-                
-                <div class="col-lg-6 item" v-for="education in data.resume.education" v-bind:key="education">
-                    <div class="card">
-                        <div class="box-wrap">
-                            <div class="icon">
-                                <span class="fa fa-graduation-cap"></span>
+    
+    <section class="w3l-services">
+        <div class="w3l-achievements py-5" id="services">
+            <div class="container py-lg-5">
+                <h5 class="title-small text-center">Education</h5>
+                <h3 class="title-big text-center mb-sm-5 mb-4">My Educations</h3>
+                <div class="row">
+                    
+                    <div class="col-lg-6 item" v-for="education in data.resume.education" v-bind:key="education.id">
+                        <div class="card">
+                            <div class="box-wrap">
+                                <div class="icon">
+                                    <span class="fa fa-graduation-cap"></span>
+                                </div>
+                                <h4><a href="">{{education.degree}}</a></h4>
+                                <p>
+                                    School : {{education.school}}<br>
+                                    Graduated : {{education.graduated}}<br>
+                                    Description : {{education.description}}<br>
+                                </p>
                             </div>
-                            <h4><a href="">{{education.degree}}</a></h4>
-                            <p>
-                                School : {{education.school}}<br>
-                                Graduated : {{education.graduated}}<br>
-                                Description : {{education.description}}<br>
-                            </p>
                         </div>
                     </div>
+    
+                    
+    
                 </div>
-
-                
-
             </div>
         </div>
     </div>
@@ -211,10 +212,10 @@
                             <p>{{awward.description}}</p>
                         </div>
                     </div>
+    
+                    
+    
                 </div>
-
-                
-
             </div>
         </div>
     </div>
@@ -248,5 +249,4 @@ export default {
         ]
       }
     }
-}
-</script>
+    </script>

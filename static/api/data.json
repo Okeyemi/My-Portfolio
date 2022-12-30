@@ -35,18 +35,22 @@
             {
                 "name": "facebook",
                 "url": "https://www.facebook.com/tunde.joseph.56",
+                "url": "https://www.facebook.com/tunde.joseph.56",
                 "className": "fa fa-facebook"
             },
             {
                 "name": "linkedin",
+                "url": "https://www.linkedin.com/in/okeyemi-tunde",
                 "url": "https://www.linkedin.com/in/okeyemi-tunde",
                 "className": "fa fa-linkedin"
             },
             {
                 "name": "instagram",
                 "url": "https://www.instagram.com/okeyemitunde/",
+                "url": "https://www.instagram.com/okeyemitunde/",
                 "className": "fa fa-instagram"
             }
+           
            
         ]
     },
@@ -62,11 +66,15 @@
             "company": "Segsalerty",
             "title": "Frontend Developer",
             "years": "2022 - Present",
+            "company": "Segsalerty",
+            "title": "Frontend Developer",
+            "years": "2022 - Present",
             "description": "Developing some userfriendly and best software."
         }],
         "skillssectiontitle":"Motivated by the Desire to achieve Success",
         "skillssectiondescription":"My skills",
         "skills": [{
+                "name": "HTML",
                 "name": "HTML",
                 "level": "90%"
             },
@@ -109,4 +117,6 @@
             }
         ]
     }
+    
+
 }

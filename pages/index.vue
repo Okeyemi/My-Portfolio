@@ -125,42 +125,12 @@
 
 <!-- <section class="w3l-clients" id="clients">
    
-    <div class="cusrtomer-layout py-5">
-        <div class="container py-lg-5 py-md-4">
-            <div class="heading text-center mx-auto">
-                <h6 class="title-small text-center">Testimonials</h6>
-                <h3 class="title-big mb-md-5 mb-4">What my clients think about Me </h3>
-            </div>
-           
-            <div class="testimonial-width">
-                <div class="row">
-                    
-                    <div class="col-md-6 col-sm-12 col-xs-12" v-for="testimonial in data.testimonials.testimonials" v-bind:key="testimonial">
-                         <div class="item">
-                          <div class="testimonial-content">
-                            <div class="testimonial">
-                                <blockquote>
-                                    <q>{{testimonial.text}}</q>
-                                </blockquote>
-                                <div class="testi-des">
-                                    <div class="peopl align-self">
-                                        <h3>{{testimonial.clientname}}</h3>
-                                        <p class="indentity">{{testimonial.clientaddress}}</p>
-                                    </div>
-                                </div>
-                            </div>
-                         </div>
-                      </div>
-                    </div>
-                 
-            </div>
-                
+    
+    
 
-            </div>
-        </div>
-       
-       
-    </div>
+    
+   
+   
     
     
 </section> -->
@@ -224,5 +194,4 @@ export default {
         ]
       }
     }
-}
-</script>
+    </script>
