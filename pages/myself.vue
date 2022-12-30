@@ -162,7 +162,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </section>
 
 <section class="w3l-services">
@@ -249,4 +248,5 @@ export default {
         ]
       }
     }
+}
     </script>

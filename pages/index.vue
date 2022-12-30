@@ -182,6 +182,7 @@ export default {
 			
         }
     },
+
     head() {
       return {
         title: 'Home : '+this.data.main.name,
@@ -194,4 +195,5 @@ export default {
         ]
       }
     }
+}
     </script>
