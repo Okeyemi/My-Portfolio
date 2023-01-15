@@ -107,7 +107,7 @@
             },
                       {
                 "no":"02",
-                "title": "MOVIE APP,
+                "title": "MOVIE APP",
                 "description":  "Built with React... All movies here are categorized based on their genre. The app is home to all kinds of movies. From horror to comedy and romance to drama, you’ll find it all here.",
                 "url": "https://ok-movies.vercel.app/"
             },
