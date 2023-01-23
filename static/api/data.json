@@ -105,20 +105,28 @@
                 "description":  "A website for a logistics company.",
                 "url": "https://www.quardmanlogistics.com/"
             },
+                {
+                 "no":"02",
+                "title": "THE WORD PLACE CHURCH",
+                "description":  "Built with React...",
+                "url": "https://www.thewordplace.org" 
+
+            },
+
                       {
-                "no":"02",
+                "no":"03",
                 "title": "MOVIE APP",
                 "description":  "Built with React... All movies here are categorized based on their genre. The app is home to all kinds of movies. From horror to comedy and romance to drama, you’ll find it all here.",
                 "url": "https://ok-movies.vercel.app/"
             },
             {
-                "no":"03",
+                "no":"04",
                 "title": "ELECTRONIC CALCULATOR",
                 "description":  "I used HTML, Tailwind CSS, and Vue. Js to build this calculator. This calculator can perform basic arithmetic such as addition, subtraction, multiplication and division.",
                 "url": "https://okeyemi-creative.vercel.app/CalculatorPage"
             },
             {
-                "no":"04",
+                "no":"05",
                 "title": "CALENDAR APP",
                 "description":"Built with HTML, Tailwind CSS and Vue.js. This calendar returns the current date, month and year",
                 "url":  "https://okeyemi-creative.vercel.app/CalendarPage/"
