@@ -64,11 +64,18 @@
             "company": "Segsalerty",
             "title": "Frontend Developer",
             "years": "2022 - Present",
-           
-           
-            
             "description": "Developing some userfriendly and best software."
-        }],
+         },
+         {
+        
+            "company": "Egglin",
+            "title": "Frontend Developer-Intership",
+            "years": "2023 - Present",
+            "description": "Developing some userfriendly and best software."
+
+         }
+    ],
+        
         "skillssectiontitle":"Motivated by the Desire to achieve Success",
         "skillssectiondescription":"My skills",
         "skills": [{
@@ -113,20 +120,29 @@
 
             },
 
-                      {
+            {
                 "no":"03",
+                "title": "FitArena",
+                "description":  " A Fitness App ... Built with ReactJs",
+                "url": "https://ok-movies.vercel.app/"
+            },
+
+            {
+                "no":"04",
                 "title": "MOVIE APP",
                 "description":  "Built with React... All movies here are categorized based on their genre. The app is home to all kinds of movies. From horror to comedy and romance to drama, you’ll find it all here.",
                 "url": "https://ok-movies.vercel.app/"
             },
+
             {
-                "no":"04",
+                "no":"05",
                 "title": "ELECTRONIC CALCULATOR",
                 "description":  "I used HTML, Tailwind CSS, and Vue. Js to build this calculator. This calculator can perform basic arithmetic such as addition, subtraction, multiplication and division.",
                 "url": "https://okeyemi-creative.vercel.app/CalculatorPage"
             },
+
             {
-                "no":"05",
+                "no":"06",
                 "title": "CALENDAR APP",
                 "description":"Built with HTML, Tailwind CSS and Vue.js. This calendar returns the current date, month and year",
                 "url":  "https://okeyemi-creative.vercel.app/CalendarPage/"
