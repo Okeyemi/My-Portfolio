@@ -27,7 +27,7 @@
             "description":"I can give your business a new creative start right away! Hire me for your Awesome project!. Contact me and we will discuss your projects!"
       
         },
-        "resumedownload":  "https://drive.google.com/file/d/1Zta-gnRLHXlWdPZjrjV1YgaDg-oe76Of/view?usp=share_link",
+        "resumedownload":  "https://1drv.ms/w/s!Ar5FqWyRdIjagjYr3Ms2nqmTnDhI?e=hC11fI",
         "social": [{
                 "name": "twitter",
                 "url": "https://www.twitter.com/tundeokeyemi1",
@@ -60,17 +60,32 @@
             "graduated": "2023",
             "description": "(In View)"
         }],
-        "work": [{
+        "work": [
+            
+            {
+            "company": "Reback Finance",
+            "title": "Frontend Developer",
+            "years": "2023-Present",
+            "description": "Developing some userfriendly and best software."
+         },
+
+            {
+            "company": "FinaSeed Limited",
+            "title": "Frontend Developer",
+            "years": "2022 -2023",
+            "description": "Developing some userfriendly web application."
+         },
+            {
             "company": "Segsalerty",
             "title": "Frontend Developer",
-            "years": "2022 - Present",
+            "years": "2022 -2023",
             "description": "Developing some userfriendly and best software."
          },
          {
-        
+    
             "company": "Egglin",
             "title": "Frontend Developer-Internship",
-            "years": "2023 - Present",
+            "years": "2023",
             "description": "Developing userfriendly web Application ."
 
          }
@@ -101,7 +116,7 @@
             },
                    {
                 "name": "REACT",
-                "level": "60%"
+                "level": "70%"
             }
         ]
     },
@@ -112,8 +127,16 @@
                 "description":  "A website for a logistics company.",
                 "url": "https://www.quardmanlogistics.com/"
             },
+
+            {
+             "no":"02",
+            "title": "REBACK FINANCE",
+            "description":  "Invoice system...",
+            "url": "https://reback.finance/" 
+
+        },
                 {
-                 "no":"02",
+                 "no":"03",
                 "title": "THE WORD PLACE CHURCH",
                 "description":  "Built with React...",
                 "url": "https://www.thewordplace.org" 
@@ -121,32 +144,27 @@
             },
 
             {
-                "no":"03",
+                "no":"04",
                 "title": "FitArena",
                 "description":  " A Fitness App ... Built with ReactJs",
-                "url": "https://ok-movies.vercel.app/"
+                "url": "http://fitarena.vercel.app/"
             },
 
             {
-                "no":"04",
+                "no":"05",
                 "title": "MOVIE APP",
                 "description":  "Built with React... All movies here are categorized based on their genre. The app is home to all kinds of movies. From horror to comedy and romance to drama, you’ll find it all here.",
                 "url": "https://ok-movies.vercel.app/"
             },
 
             {
-                "no":"05",
+                "no":"06",
                 "title": "ELECTRONIC CALCULATOR",
                 "description":  "I used HTML, Tailwind CSS, and Vue. Js to build this calculator. This calculator can perform basic arithmetic such as addition, subtraction, multiplication and division.",
                 "url": "https://okeyemi-creative.vercel.app/CalculatorPage"
-            },
-
-            {
-                "no":"06",
-                "title": "CALENDAR APP",
-                "description":"Built with HTML, Tailwind CSS and Vue.js. This calendar returns the current date, month and year",
-                "url":  "https://okeyemi-creative.vercel.app/CalendarPage/"
             }
+
+         
         ]
     }
     
