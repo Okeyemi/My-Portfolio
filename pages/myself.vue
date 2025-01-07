@@ -32,8 +32,8 @@
                         <div class="single-info"><span>Name:</span>
                             <p>{{data.main.name}}</p>
                         </div>
-                        <div class="single-info"><span>Age:</span>
-                            <p>{{data.main.age}}</p>
+                        <div class="single-info"><span>Gender:</span>
+                            <p>{{data.main.gender}}</p>
                         </div>
                         <div class="single-info"><span>From:</span>
                             <p>{{data.main.address.city}}, {{data.main.address.state}}</p>
@@ -107,7 +107,7 @@
                     </div>
                     <div class="content-gd col-lg-6 offset-lg-1">
                         <div class="progress-info" v-for="skill in data.resume.skills" v-bind:key="skill.id">
-                            <h6 class="progress-tittle"><b>{{skill.name}} :</b> <font style="float:right">{{skill.level}}</font> </h6> 
+                            <h6 class="progress-tittle">{{skill.name}} </h6> 
                             
                         </div>
                         
@@ -150,8 +150,8 @@
                                 <h4><a href="">{{education.degree}}</a></h4>
                                 <p>
                                     School : {{education.school}}<br>
-                                    Graduated : {{education.graduated}}<br>
-                                    Description : {{education.description}}<br>
+                                    <!-- Graduated : {{education.graduated}}<br> -->
+                                    <!-- Description : {{education.description}}<br> -->
                                 </p>
                             </div>
                         </div>
@@ -181,7 +181,7 @@
                             <p>
                                 Company : {{work.company}}<br>
                                 Year : {{work.years}}<br>
-                                Description : {{work.description}}<br>
+                                <!-- Description : {{work.description}}<br> -->
                             </p>
                         </div>
                     </div>

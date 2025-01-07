@@ -4,13 +4,13 @@
         "shortname": "Okeyemi creative",
         "occupation": "Developer / Programmer / Engineer",
         "description": "Study, Pray,Reach, code, repeat.",
-        "yearofexperience": "02 +",
-        "age": "27",
+        "yearofexperience": "03 +",
         "designation": "Front-End Developer",
+        "gender": "Male",
         "image": "/images/myphoto.jpg",
         "fullimage": "/images/my-photo2.jpg",
-        "bio": "Hi there! I am a dedicated and passionate front-end developer with a strong foundation in modern web development technologies. I have hands-on experience in building dynamic and responsive web applications using a variety of modern tools and frameworks. I thrive in fast-paced environments and excel at solving complex problems. My ability to collaborate effectively with teams and my commitment to continuous learning enable me to deliver high-quality, user-centric solutions.",
-        "contactmessage": "Get in touch with me to to build any software for your business.!",
+        "bio": "Hi there! I am  Software Engineer with 3+ years of expertise in the fintech, e-commerce, and logistics sectors. Proficient in front-end development, website and application design, API creation, and database management. Adept at delivering robust, scalable user interfaces tailored to client specifications, achieving exceptional results for both web and mobile platforms.",
+        "contactmessage": "Get in touch with me to build any software for your business.!",
         "email": "okeyemicreative@gmail.com",
         "phone": "+2347032759538",
         "mapaddress": "",
@@ -56,67 +56,42 @@
         "skillmessage": "My Programming Language Proficiency",
         "education": [{
             "school": "Qwasar Silicon Valley",
-            "degree":  "Software Engineering",
-            "graduated": "2023",
-            "description": "(In View)"
+            "degree":  "Software Engineering"
         }],
         "work": [
             
             {
             "company": "Reback Finance",
             "title": "Frontend Developer",
-            "years": "2023-Present",
-            "description": "Developing some userfriendly and best software."
+            "years": "2022-Present"
          },
 
             {
             "company": "FinaSeed Limited",
             "title": "Frontend Developer",
-            "years": "2022 -2023",
+            "years": "2021 -2022",
             "description": "Developing some userfriendly web application."
          },
             {
             "company": "Segsalerty",
             "title": "Frontend Developer",
-            "years": "2022 -2023",
+            "years": "2020 -2021",
             "description": "Developing some userfriendly and best software."
-         },
-         {
-    
-            "company": "Egglin",
-            "title": "Frontend Developer-Internship",
-            "years": "2023",
-            "description": "Developing userfriendly web Application ."
-
          }
+ 
     ],
         
         "skillssectiontitle":"Motivated by the Desire to achieve Success",
         "skillssectiondescription":"My skills",
         "skills": [{
-                "name": "HTML",
-                
-                "level": "90%"
-            },
+                "name": "HTML | CSS | TAILWINDCSS | JAVASCRIPT | TYPESCRIPT"
+                },
             {
-                "name": "CSS",
-                "level": "70%"
+              "name": "CHAKRA UI | REACT JS/ NEXT JS | VUE JS/ NUXT JS | REACT NATIVE | NODE JS | "
             },
+         
             {
-                "name": "TAILWINDCSS",
-                "level": "70%"
-            },
-            {
-                "name": "JAVASCRIPT",
-                "level": "60%"
-            },
-            {
-                "name": "VUE JS",
-                "level": "70%"
-            },
-                   {
-                "name": "REACT",
-                "level": "70%"
+                "name": "NEST JS | REST API | GIT | GITHUB"
             }
         ]
     },
@@ -138,30 +113,30 @@
                 {
                  "no":"03",
                 "title": "THE WORD PLACE CHURCH",
-                "description":  "Built with React...",
+                "description":  "A website for a church organization.",
                 "url": "https://www.thewordplace.org" 
 
             },
 
             {
                 "no":"04",
-                "title": "FitArena",
-                "description":  " A Fitness App ... Built with ReactJs",
-                "url": "http://fitarena.vercel.app/"
+                "title": "LogaXP",
+                "description":  "cutting-edge solutions designed to streamline operations and drive your business forward.",
+                "url": "https://logaxp.com/"
             },
 
             {
                 "no":"05",
-                "title": "MOVIE APP",
-                "description":  "Built with React... All movies here are categorized based on their genre. The app is home to all kinds of movies. From horror to comedy and romance to drama, you’ll find it all here.",
-                "url": "https://ok-movies.vercel.app/"
+                "title": "ROYAL GIFS APP",
+                "description":  "A Gifs App.. Built with React.JS.",
+                "url": "https://royalgifs.vercel.app/"
             },
 
             {
                 "no":"06",
-                "title": "ELECTRONIC CALCULATOR",
-                "description":  "I used HTML, Tailwind CSS, and Vue. Js to build this calculator. This calculator can perform basic arithmetic such as addition, subtraction, multiplication and division.",
-                "url": "https://okeyemi-creative.vercel.app/CalculatorPage"
+                "title": "My Portfolio",
+                "description":  "A personal portfolio built for myself.",
+                "url": "https://okeyemicreativeportfolio.vercel.app/"
             }
 
          
